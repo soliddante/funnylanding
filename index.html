@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="output.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+        @font-face {
+            font-family: 'font-1';
+            src: url(font/Regular.woff2);
+        }
+
+        body {
+
+            background: linear-gradient(180deg, #FFFFFE 0%, #FFFFFE 43.65%, rgba(255, 230, 184, 1) 100%);
+
+        }
+
+        @font-face {
+            font-family: 'font-2';
+            src: url(font/Vanilla.ttf);
+        }
+
+
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .font-1 {
+            font-family: 'font-1';
+            letter-spacing: 0.05em;
+
+        }
+
+        .font-2 {
+            font-family: 'font-2';
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+
+        <header class="relative mx-auto w-full">
+            <nav class="flex items-center justify-between p-2  mx-auto max-w-[1024px]">
+                <left>
+                    <logo>
+                        <img src="img/logo.png" class="w-[130px]" alt="">
+                    </logo>
+                </left>
+                <right>
+                    <flex class="flex justify-between items-center w-full gap-2">
+                        <button type="button"
+                            class="bg-secondary cursor-pointer shadow border border-black w-[160px]  h-[40px] flex justify-center rounded-full drop-shadow-[2px_-2px_0px_rgba(0,0,0,1)] items-center">
+                            <img class="px-4" src="img/3.png"  >
+                        </button>
+                    </flex>
+                </right>
+            </nav>
+
+            <up class="block">
+                <circle class="absolute w-full -z-10 top-0 mx-auto  right-0 left-0 ">
+                   <img src="img/circle.svg" class="w-full hidden max-w-[768px] mx-auto md:block object-contain">
+                   <img src="img/circle-mobile.svg" class="w-full md:hidden max-w-[768px] mx-auto block object-contain">
+                </circle>
+                <clouds>
+                    <img src="img/abrs.svg" class="absolute -z-[5] top-12">
+                </clouds>
+                <home class="w-full max-w-[620px] mx-auto block   z-[2] top-[70px] right-0 left-0">
+                    <img src="img/home.png" class="w-full px-4 block mx-auto max-w-[620px]">
+                </home>
+               
+            </up>
+            <subject class="block w-max mx-auto mt-2 max-w-[190px]">
+                <img src="img/title.png" class="w-full" alt="">
+            </subject>
+            <describe class="text-center block text-sm">
+                But I must explain to you how all this mistaken idea of denouncing
+            </describe>
+        </header>
+        <ico class="block w-full max-w-[620px] mx-auto">
+            <boxes class="mt-4 block">
+                <grid class="grid px-3 grid-cols-3 gap-3">
+                    <column class="col-span-1 justify-center w-full">
+                        <box
+                            class="bg-[#88dffb] w-full h-[60px] rounded shadow-[3px_-3px_0px_#040747] border-2 border-[#470e04] flex items-center justify-center">
+                            <inside>
+                                <number
+                                    class="text-white -mb-1 block text-center text-[20px] text-stroke text-stroke-black font-2 drop-shadow-[2px_-2px_0px_rgba(0,0,0,1)] ">
+                                    100
+                                </number>
+                                <describe
+                                    class="block font-black text-white drop-shadow-[1px_1px_0px_black] text-[14px] text-center">
+                                    Lands For Sale
+                                </describe>
+                            </inside>
+                        </box>
+                        <foot class="block">
+                            <img src="img/paye.png" class="mx-auto block w-[18px]" alt="">
+                        </foot>
+                    </column>
+                    <column class="col-span-1 justify-center w-full">
+                        <box
+                            class="bg-[#88dffb] w-full h-[60px] rounded shadow-[3px_-3px_0px_#040747] border-2 border-[#470e04] flex items-center justify-center">
+                            <inside>
+                                <number
+                                    class="text-white -mb-1 block text-center text-[20px] text-stroke text-stroke-black font-2 drop-shadow-[2px_-2px_0px_rgba(0,0,0,1)] ">
+                                    24
+                                </number>
+                                <describe
+                                    class="block font-black text-white drop-shadow-[1px_1px_0px_black] text-[14px] text-center">
+                                    Lands Sold
+                                </describe>
+                            </inside>
+                        </box>
+                        <foot class="block">
+                            <img src="img/paye.png" class="mx-auto block w-[18px]" alt="">
+                        </foot>
+                    </column>
+                    <column class="col-span-1 justify-center w-full">
+                        <box
+                            class="bg-[#88dffb] w-full h-[60px] rounded shadow-[3px_-3px_0px_#040747] border-2 border-[#470e04] flex items-center justify-center">
+                            <inside>
+                                <number
+                                    class="text-white -mb-1 block text-center text-[20px] text-stroke text-stroke-black font-2 drop-shadow-[2px_-2px_0px_rgba(0,0,0,1)] ">
+                                    76
+                                </number>
+                                <describe
+                                    class="block font-black text-white drop-shadow-[1px_1px_0px_black] text-[14px] text-center">
+                                    Land Available
+                                </describe>
+                            </inside>
+                        </box>
+                        <foot class="block">
+                            <img src="img/paye.png" class="mx-auto block w-[18px]" alt="">
+                        </foot>
+                    </column>
+
+                </grid>
+                <padding class="px-3 block">
+                    <main_box class="w-full -mt-0.5 h-24 bg-[#88dffb] border-2 border-[#040747]
+                     rounded block shadow-[4px_-4px_0px_#040747] ">
+
+                        <grid class="grid grid-cols-7 h-full px-3">
+
+                            <column class="col-span-2 pl-2 flex items-center justify-center">
+                                <img src="img/ico.png" class="block -mt-5 -ml-3 h-24 mx-auto w-full object-contain">
+                            </column>
+                            <column class="col-span-5  flex items-center justify-center">
+                                <inside class="w-full">
+                                    <describe class="w-full text-[18px] px-0.5 pb-1 flex  justify-between items-center">
+                                        <subject
+                                            class="font-black text-white text-stroke text-stroke-black drop-shadow-[2px_2px_0px_black]">
+                                            Available
+                                            Lands</subject>
+                                        <number
+                                            class="font-black text-white text-stroke text-stroke-black drop-shadow-[2px_2px_0px_black]">
+                                            12%
+                                        </number>
+                                    </describe>
+                                    <border
+                                        class="bg-blue-900 border-2 shadow border-white block h-[26px] w-full rounded-full relative">
+                                        <img src="img/loaded.svg"
+                                            class="w-[22px]   rounded-full h-[22px] object-cover  absolute left-[1px] top-[0.5px] bottom-0 m-auto"
+                                            alt="">
+                                    </border>
+                                </inside>
+                            </column>
+                        </grid>
+                    </main_box>
+                </padding>
+            </boxes>
+        </ico>
+
+        <section-2 class="block mt-8 relative">
+            <left_background class="absolute -z-10 top-0 right-0">
+                <img src="img/bg-2.svg" alt="">
+            </left_background>
+            <home class="block">
+                <img src="img/cloud2.svg" class="absolute z-[-5] top-12 w-full  block">
+                <img src="img/home2.png" class="w-full block mx-auto max-w-[620px]">
+            </home>
+            <subject class="block mx-auto -mt-2 w-[260px]">
+
+                <img src="img/joinpresale.png" class="w-full  block">
+            </subject>
+            <text class="px-4 text-center  w-full block mx-auto max-w-[620px] text-sm mt-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. At congue et urna erat. Felis porta turpis
+                consectetur et nisi, ut eget dolor. Tempor facilisis elementum tristique mauris, in eget est non
+                pharetra. Fringilla morbi mauris tincidunt quis enim et ipsum.
+            </text>
+            <features class="block mx-auto max-w-[620px]">
+                <grid class="grid grid-cols-3 mt-8 gap-4 px-4">
+                    <column class="col-span-1">
+                        <image>
+                            <img src="img/col-prize.png" class="w-full mx-auto block max-w-[130px]">
+                        </image>
+                    </column>
+                    <column class="col-span-1">
+                        <image>
+                            <img src="img/col-prize2.png" class="w-full mx-auto block max-w-[130px]">
+                        </image>
+                    </column>
+                    <column class="col-span-1">
+                        <image>
+                            <img src="img/col-prize3.png" class="w-full mx-auto block max-w-[130px]">
+                        </image>
+                    </column>
+                    <column class="col-span-3">
+                        <text class="text-sm block mx-auto text-center">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. At congue et urna erat. Felis porta turpis consectetur et nisi, ut eget dolor. Tempor facilisis elementum tristique mauris, in eget est non pharetra. Fringilla morbi mauris tincidunt quis enim et ipsum.
+                        </text>
+                    </column>
+                    <column class="col-span-3 mb-5 flex items-center justify-center">
+                        <button type="button"
+                        class="bg-secondary cursor-pointer shadow border border-black w-[160px]  h-[40px] flex justify-center rounded-full drop-shadow-[2px_-2px_0px_rgba(0,0,0,1)] items-center">
+                        <img class="px-4" src="img/3.png" alt="">
+                    </button>
+                    </column>
+                </grid>
+            </features>
+        </section-2>
+
+    </main>
+</body>
+
+</html>
